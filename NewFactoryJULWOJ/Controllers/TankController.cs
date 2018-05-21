@@ -9,11 +9,11 @@ using System.Web.Http;
 
 namespace NewFactoryJULWOJ.Controllers
 {
-    public class ValuesController : ApiController
+    public class TankController : ApiController
     {
         private readonly ILogger logger;
         IRepository rep;
-        public ValuesController(IRepository rep, ILogger logger)
+        public TankController(IRepository rep, ILogger logger)
         {
             this.rep = rep;
             this.logger = logger;
